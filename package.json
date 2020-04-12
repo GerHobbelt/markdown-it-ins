@@ -1,13 +1,17 @@
 {
   "name": "@gerhobbelt/markdown-it-ins",
   "version": "3.0.1-1",
-  "description": "<ins> tag for markdown-it markdown parser.",
+  "description": "<ins> and <del> tags, with attribution, for markdown-it markdown parser. Forked from https://github.com/WenTingZhu/markdown-it-ins-del, but allows use of markdown-it's native strikethrough (<s> tag) via '~~', instead using '--' for <del> tags.",
   "keywords": [
     "markdown-it-plugin",
     "markdown-it",
     "markdown",
     "insert",
-    "ins"
+    "ins",
+    "delete",
+    "del",
+    "sup",
+    "strikethrough"
   ],
   "repository": "GerHobbelt/markdown-it-ins",
   "license": "MIT",
