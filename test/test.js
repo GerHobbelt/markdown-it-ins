@@ -8,7 +8,8 @@ var generate = require('@gerhobbelt/markdown-it-testgen');
 
 describe('markdown-it-ins', function () {
   var md = require('@gerhobbelt/markdown-it')()
-              .use(require('../'));
-
+              .use(require('../')({
+                prefix: 'http://myprefix.com/'
+              }));
   generate(path.join(__dirname, 'fixtures/ins.txt'), md);
 });
